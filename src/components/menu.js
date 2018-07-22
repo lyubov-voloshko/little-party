@@ -10,7 +10,8 @@ const Menu = () => (
     'list-style-type': 'none',
     'margin-left': '0',
   }}>
-    <li style={{padding: '10px'}}><Link to="/guestlist/">Guest List</Link></li>
+    <li style={{padding: '10px'}}><Link to="/guests-list/">Guest List</Link></li>
+    <li style={{padding: '10px'}}><Link to="/dress-code/">Dress Code</Link></li>
     <li style={{padding: '10px'}}><Link to="/termsOfConduct/">Go to Terms</Link></li>
   </ul>
 )

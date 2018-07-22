@@ -1,5 +1,5 @@
 ---
-path: '/jordan'
+type: 'guest'
 name: 'Jordan Baker'
 status: 'vip guest'
 ---

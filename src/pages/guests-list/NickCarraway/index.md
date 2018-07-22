@@ -1,5 +1,5 @@
 ---
-path: '/nick'
+type: 'guest'
 name: 'Nick Carraway'
 status: 'Invited guest'
 ---

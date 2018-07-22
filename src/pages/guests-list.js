@@ -8,7 +8,7 @@ const GuestsList = ({ data }) => (
     {data.allMarkdownRemark.edges.map(guest => (
       <li key={guest.node.id}>
         <h4>{guest.node.frontmatter.name}</h4>
-        <Link to={guest.node.frontmatter.path}><small>about</small></Link>
+        <Link to={guest.node.fields.slug}><small>about</small></Link>
         <p>{guest.node.frontmatter.status}</p>
         <hr />
       </li>
@@ -18,14 +18,16 @@ const GuestsList = ({ data }) => (
 )
 
 export const pageQuery = graphql`
-  query ListIndexQuery {
+  query ListGuestsQuery {
     
-      allMarkdownRemark{
+      allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/guests-list/"}}){
         edges{
           node{
             id
+            fields {
+              slug
+            }
             frontmatter{
-              path
               name
               status
             }

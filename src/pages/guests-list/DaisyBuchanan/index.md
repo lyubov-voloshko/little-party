@@ -1,5 +1,5 @@
 ---
-path: '/daisy'
+type: 'guest'
 name: 'Daisy Buchanan'
 status: 'special guest'
 ---
