@@ -1,0 +1,17 @@
+$letterFont: 'Great Vibes', cursive;
+$mainFont: 'Poiret One', sans serif;
+$headerFont: 'Abril Fatface', sans serif;
+
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+@import url('https://fonts.googleapis.com/css?family=Chonburi');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: $mainFont;
+}

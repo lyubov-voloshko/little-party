@@ -2,10 +2,11 @@ module.exports = {
   siteMetadata: {
     title: 'Little Party',
   },
-  pathPrefix: "/little-party",
+  pathPrefix: `/little-party`,
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-catch-links',
+    'gatsby-plugin-sass',
     {
       resolve: 'gatsby-source-filesystem',
       options: {

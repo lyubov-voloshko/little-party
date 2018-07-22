@@ -1,18 +1,21 @@
 import React from 'react'
+import GuestCard from '../components/guestCard'
 import Link from 'gatsby-link'
+import '../stylesheets/content.scss'
+import '../stylesheets/guestsList.scss'
 
 const GuestsList = ({ data }) => (
-  <div style={{display: 'inline-block'}}>
-    <h1>List of Guests</h1>
-    <ul>
-    {data.allMarkdownRemark.edges.map(guest => (
-      <li key={guest.node.id}>
-        <h4>{guest.node.frontmatter.name}</h4>
-        <Link to={guest.node.fields.slug}><small>about</small></Link>
-        <p>{guest.node.frontmatter.status}</p>
-        <hr />
-      </li>
-    ))}
+  <div className="content">
+    <h1 className="pageName">List of Guests</h1>
+    <ul className="guestsList">
+      {data.allMarkdownRemark.edges.map(guest => (
+        <GuestCard key={guest.node.id}
+                   photoLink={guest.node.frontmatter.photo}
+                   name={guest.node.frontmatter.name}
+                   status={guest.node.frontmatter.status}
+                   link={guest.node.fields.slug}
+        />
+      ))}
     </ul>
   </div>
 )
@@ -30,6 +33,7 @@ export const pageQuery = graphql`
             frontmatter{
               name
               status
+              photo
             }
           }
         }

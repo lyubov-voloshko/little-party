@@ -2,6 +2,7 @@
 type: 'guest'
 name: 'Jordan Baker'
 status: 'vip guest'
+photo: 'https://thegatsbywomen.files.wordpress.com/2013/10/jordanbaker.png?w=250&h=316'
 ---
 
 **Jordan Baker**

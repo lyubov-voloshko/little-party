@@ -2,6 +2,7 @@
 type: 'guest'
 name: 'Daisy Buchanan'
 status: 'special guest'
+photo: 'https://vignette.wikia.nocookie.net/thegreatgatsby/images/c/c1/Daisy.png/revision/latest/scale-to-width-down/250?cb=20130126002342'
 ---
 
 **Daisy Fay Buchanan**

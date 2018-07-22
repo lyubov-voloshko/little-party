@@ -1,7 +1,8 @@
 ---
 type: 'guest'
 name: 'Nick Carraway'
-status: 'Invited guest'
+status: 'invited guest'
+photo: 'https://vignette.wikia.nocookie.net/thegreatgatsby/images/6/6f/Nick.png/revision/latest/scale-to-width-down/250?cb=20130125235258'
 ---
 
 **Nick Carraway**

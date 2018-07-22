@@ -1,0 +1,15 @@
+@import "main";
+
+.header {
+  background: #051A1A;
+  box-sizing: border-box;
+  padding: 20px 5%;
+  width: 100%;
+
+  &__siteName {
+    color: #fff;
+    font-family: $headerFont;
+    font-size: 2em;
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,34 @@
+@import "main";
+
+.guestCard {
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.5);
+  width: 225px;
+
+  &__photo {
+    display: block;
+    background-position-x: 50%;
+    background-size: cover;
+    border-radius: 5px 5px 0 0;
+    height: 300px;
+    width: 100%;
+  }
+}
+
+.guestInfo {
+  padding: 10px 20px;
+
+  &__name {
+    font-family: $headerFont;
+    font-size: 1.125em;
+  }
+
+  &__status {
+
+  }
+
+  &__link {
+    float: right;
+  }
+}
