@@ -1,11 +1,9 @@
 ---
 type: 'guest'
 name: 'Jordan Baker'
-status: 'vip guest'
+status: 'vip'
 photo: 'https://thegatsbywomen.files.wordpress.com/2013/10/jordanbaker.png?w=250&h=316'
 ---
-
-**Jordan Baker**
 
 A professional golfer and Daisy Buchanan's long-time friend with a sarcastic streak and
 an aloof attitude. She is Nick Carraway's girlfriend for most of the novel, though they

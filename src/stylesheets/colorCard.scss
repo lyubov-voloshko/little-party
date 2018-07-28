@@ -1,6 +1,6 @@
 @import "main";
 
-.guestCard {
+.colorCard {
   justify-self: center;
   background: #fff;
   border-radius: 5px;
@@ -17,16 +17,17 @@
   }
 }
 
-.guestInfo {
-  padding: 10px 20px;
+.colorInfo {
+  border-radius: 0 0 5px 5px;
+  padding: 10px 20px 15px;
 
   &__name {
     font-family: $headerFont;
     font-size: 1.125em;
   }
 
-  &__status {
-
+  &__hexCode {
+    text-transform: uppercase;
   }
 
   &__link {

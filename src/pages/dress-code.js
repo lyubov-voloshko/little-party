@@ -1,19 +1,24 @@
+import ColorCard from '../components/colorCard'
 import React from 'react'
 import Link from 'gatsby-link'
+import '../stylesheets/dressCode.scss'
 
 const GuestsList = ({ data }) => (
-  <div style={{display: 'inline-block'}}>
-    <h1>List of Colors</h1>
-    <ul>
+  <div className="content">
+    <h1 className="pageName">Colors of the Party</h1>
+    <p>Colors matter on Gatsby's perties. Pay attention to the colors in your outfit.</p>
+    <ul className="colorList">
     {data.allMarkdownRemark.edges.map(color => (
-      <li key={color.node.id}>
-        <h4>{color.node.frontmatter.name}</h4>
-        <p>{color.node.frontmatter.hexCode}</p>
-        <Link to={color.node.fields.slug}><small>about</small></Link>
-        <hr />
-      </li>
+      <ColorCard key={color.node.id}
+                 photoOutfit={color.node.frontmatter.photoOutfit}
+                 name={color.node.frontmatter.name}
+                 hexCode={color.node.frontmatter.hexCode}
+                 link={color.node.fields.slug}
+                 photoBackground={color.node.frontmatter.photoBackground}
+      />
     ))}
     </ul>
+    <p>Illustration Catherine Martin/Warner Bros <a href=""></a></p>
   </div>
 )
 
@@ -30,6 +35,8 @@ export const pageQuery = graphql`
             frontmatter{
               name
               hexCode
+              photoOutfit
+              photoBackground
             }
           }
         }

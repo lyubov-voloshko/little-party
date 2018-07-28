@@ -1,0 +1,55 @@
+@import "main";
+
+.colorPage {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+
+  &Header {
+    width: calc(100vw + 10px);
+    height: 250px;
+    margin-bottom: -100px;
+    margin-top: -5px;
+    box-sizing: border-box;
+
+    &__title {
+
+      @extend .content;
+
+      color: #fff;
+      margin-top: -170px;
+      opacity: 0.99;
+    }
+
+    &__background {
+      background-size: cover;
+      background-position-y: 50%;
+      height: 100%;
+      filter: brightness(80%) blur(2px) saturate(150%) contrast(110%);
+    }
+  }
+
+  &__article {
+
+    @include text;
+
+    display: block;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.4);
+    opacity: 0.99;
+    padding: 25px 30px;
+
+    & > p {
+      @extend .content;
+    }
+
+  }
+
+  &__copyright {
+    color: #999;
+    font-size: 0.875em;
+    margin: 10px 0 30px;
+  }
+}

@@ -1,13 +1,16 @@
 ---
 type: 'color'
 name: 'Yellow'
-hexCode: '#ffff00'
+hexCode: '#ffffd0'
+photoOutfit: 'http://joxi.ru/12Mp547hMVv3Dm.jpg'
+photoBackground: 'https://i.pinimg.com/564x/8d/b5/4b/8db54b46fe5ce31a9323ea7f9a1d0817.jpg'
 ---
 
 Throughout the novel, it can be seen that the most
 common color accompanying with Gatsby is yellow. With
 this color, the author skillfully implies what kind of outer
 self that Gatsby intends to show before others.
+
 Yellow is the color of gold, which symbolizes money,
 materialism and high social position. In Western culture,
 the yellow color is the color that the aristocratic class uses
@@ -37,6 +40,7 @@ these show that what Daisy loves only is just money and
 wealth and that she enjoys herself greedily in the wealthy
 and luxurious life style. Regarding such a golden woman
 as his dream, Gatsby is doomed to be disillusioned.
+
 On the other hand, the yellow color is the color of
 autumn leaves, which symbolizes decay, death and
 destructive power. Before Gatsby was shot by Wilson,
@@ -45,9 +49,9 @@ disappeared among the yellowing trees in a moment,
 which indicated his death. And his yellow car not only
 ends Mrs. Wilson’s life, but also eventually leads to his
 death. But it is Daisy who actually leads to Gatsby's
-
 tragedy. So this color also indicates the failure of the
 American Dream.
+
 Yellow, the color that Gatsby is struggling all his life,
 not only gives him confidence, but also destroys his dream
 and life. So it reflects the characteristics of the times and

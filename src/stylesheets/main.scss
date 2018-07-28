@@ -13,5 +13,19 @@ $headerFont: 'Abril Fatface', sans serif;
 }
 
 body {
+  color: #333;
   font-family: $mainFont;
+}
+
+.content {
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 740px;
+  min-width: 225px;
+  width: 70vw;
+}
+
+@mixin text {
+  font-size: 1.4em;
+  line-height: 1.6em;
 }

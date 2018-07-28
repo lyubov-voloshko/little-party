@@ -1,0 +1,47 @@
+@import "main";
+
+.guestPage {
+
+  &__article {
+
+    @include text;
+
+    margin-top: 30px;
+  }
+}
+
+.guestPageHeader {
+  padding: 50px 0 0;
+
+  &__photo {
+    display: inline-block;
+    margin-bottom: -10px;
+    width: 150px;
+  }
+
+  &__info {
+    display: inline-block;
+    padding-left: 20px;
+  }
+
+  &__name {
+    margin-bottom: 12px;
+  }
+
+  &__status {
+    display: inline-block;
+    color: #999;
+    padding-bottom: 10px;
+
+    &_type {
+      &::before {
+        content: '';
+        display: block;
+        background: #BA9D78;
+        height: 3px;
+        margin-bottom: 4px;
+        width: calc(100% - 35px);
+      }
+    }
+  }
+}

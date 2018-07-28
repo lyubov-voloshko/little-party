@@ -6,9 +6,16 @@ export default function Template ({data}) {
   const color = data.markdownRemark;
 
   return(
-    <div>
-      <h1 className="header" style={{ 'color': `${color.frontmatter.hexCode}` }}>{color.frontmatter.name}</h1>
-      <div dangerouslySetInnerHTML={{__html: color.html}}></div>
+    <div className="colorPage">
+      <div className="colorPageHeader">
+        <div className="colorPageHeader__background"
+             style={{ 'background-image': `url(${color.frontmatter.photoBackground})` }} />
+        <h1 className="colorPageHeader__title">{color.frontmatter.name}</h1>
+      </div>
+      <div className="colorPage__article"
+           dangerouslySetInnerHTML={{__html: color.html}}>
+      </div>
+      <span className="colorPage__copyright">&copy; "Symbolic Meanings of Colors in The Great Gatsby" by ZHANG Haibing</span>
     </div>
   )
 }
@@ -21,8 +28,8 @@ export const guestQuery = graphql`
           frontmatter {
               name
               hexCode
+              photoBackground
           }
       }
-    
   }
 `
