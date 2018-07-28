@@ -21,16 +21,20 @@
     width: 200px;
 
     &Link {
+      color:  #051A1A;
+      font-size: 1.125em;
+      text-decoration: none;
       text-shadow: none;
+      text-transform: capitalize;
       transition: text-shadow 500ms;
+
       &:hover {
         text-shadow: 1px 0 0 #000000;
       }
 
-      color:  #051A1A;
-      font-size: 1.125em;
-      text-decoration: none;
-      text-transform: capitalize;
+      &_current {
+        text-shadow: 1px 0 0 #000000;
+      }
     }
   }
 }
