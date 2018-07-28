@@ -1,5 +1,9 @@
 {
   "assetsByChunkName": {
+    "path---guests-list-tom-buchanan": [
+      "path---guests-list-tom-buchanan-db7d67e8def8209a0dbb.js",
+      "path---guests-list-tom-buchanan-db7d67e8def8209a0dbb.js.map"
+    ],
     "path---terms-of-conduct": [
       "path---terms-of-conduct-a0e39f21c11f6a62c5ab.js",
       "path---terms-of-conduct-a0e39f21c11f6a62c5ab.js.map"
@@ -9,28 +13,32 @@
       "component---src-pages-index-js-502847a082bf8fe9523b.js.map"
     ],
     "component---src-templates-color-page-js": [
-      "component---src-templates-color-page-js-f0d7e6ea612f28f06e9e.js",
-      "component---src-templates-color-page-js-f0d7e6ea612f28f06e9e.js.map"
+      "component---src-templates-color-page-js-1a6f2e9ca289350503c3.js",
+      "component---src-templates-color-page-js-1a6f2e9ca289350503c3.js.map"
     ],
     "path---": [
       "path----135428cd3846cf3bd308.js",
       "path----135428cd3846cf3bd308.js.map"
     ],
     "component---src-templates-guest-page-js": [
-      "component---src-templates-guest-page-js-df9eae7d20fe9364949f.js",
-      "component---src-templates-guest-page-js-df9eae7d20fe9364949f.js.map"
+      "component---src-templates-guest-page-js-8b99b2518363efdf3aef.js",
+      "component---src-templates-guest-page-js-8b99b2518363efdf3aef.js.map"
     ],
     "path---guests-list-nick-carraway": [
-      "path---guests-list-nick-carraway-2d1154c863543bd3f07f.js",
-      "path---guests-list-nick-carraway-2d1154c863543bd3f07f.js.map"
+      "path---guests-list-nick-carraway-6597081d613a3d640b1d.js",
+      "path---guests-list-nick-carraway-6597081d613a3d640b1d.js.map"
     ],
     "path---guests-list-daisy-buchanan": [
-      "path---guests-list-daisy-buchanan-6d1ef2efc24764fadafa.js",
-      "path---guests-list-daisy-buchanan-6d1ef2efc24764fadafa.js.map"
+      "path---guests-list-daisy-buchanan-15084ddb87c772bcf0ea.js",
+      "path---guests-list-daisy-buchanan-15084ddb87c772bcf0ea.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-bbec5c459b57cb071928.js",
-      "component---src-layouts-index-js-bbec5c459b57cb071928.js.map"
+      "component---src-layouts-index-js-8dba7f7971488fbf0154.js",
+      "component---src-layouts-index-js-8dba7f7971488fbf0154.js.map"
+    ],
+    "path---guests-list-myrtle-wilson": [
+      "path---guests-list-myrtle-wilson-67478ca489d39648db6e.js",
+      "path---guests-list-myrtle-wilson-67478ca489d39648db6e.js.map"
     ],
     "path---page-2": [
       "path---page-2-a0e39f21c11f6a62c5ab.js",
@@ -49,8 +57,12 @@
       "commons-403258ad126d5c26671b.js.map"
     ],
     "path---dress-code": [
-      "path---dress-code-82dacc3a6784f436a30a.js",
-      "path---dress-code-82dacc3a6784f436a30a.js.map"
+      "path---dress-code-0122e01bc7412315d19a.js",
+      "path---dress-code-0122e01bc7412315d19a.js.map"
+    ],
+    "path---dress-code-gray": [
+      "path---dress-code-gray-27569c665805610853c0.js",
+      "path---dress-code-gray-27569c665805610853c0.js.map"
     ],
     "path---404-html": [
       "path---404-html-a0e39f21c11f6a62c5ab.js",
@@ -64,37 +76,49 @@
       "component---src-pages-terms-of-conduct-js-4a29a162276124dd0126.js",
       "component---src-pages-terms-of-conduct-js-4a29a162276124dd0126.js.map"
     ],
+    "path---dress-code-blue": [
+      "path---dress-code-blue-a6e0024245bf048837df.js",
+      "path---dress-code-blue-a6e0024245bf048837df.js.map"
+    ],
     "component---src-pages-page-2-js": [
       "component---src-pages-page-2-js-075954cd9c4544c7dcd8.js",
       "component---src-pages-page-2-js-075954cd9c4544c7dcd8.js.map"
     ],
     "path---dress-code-green": [
-      "path---dress-code-green-71f340a5182807fdc726.js",
-      "path---dress-code-green-71f340a5182807fdc726.js.map"
+      "path---dress-code-green-8ecd31244c59761243d8.js",
+      "path---dress-code-green-8ecd31244c59761243d8.js.map"
     ],
     "app": [
-      "app-d00c65445c840fc876d4.js",
-      "app-d00c65445c840fc876d4.js.map"
+      "app-8072319378e4c19c981e.js",
+      "app-8072319378e4c19c981e.js.map"
     ],
     "path---guests-list": [
-      "path---guests-list-02e3eaf536298404cd7f.js",
-      "path---guests-list-02e3eaf536298404cd7f.js.map"
+      "path---guests-list-8f7b405a7c2b4ec4a1d3.js",
+      "path---guests-list-8f7b405a7c2b4ec4a1d3.js.map"
     ],
     "path---guests-list-jordan-baker": [
-      "path---guests-list-jordan-baker-32095f04d8d513fcb700.js",
-      "path---guests-list-jordan-baker-32095f04d8d513fcb700.js.map"
+      "path---guests-list-jordan-baker-9cf83f761dc6411afa1c.js",
+      "path---guests-list-jordan-baker-9cf83f761dc6411afa1c.js.map"
     ],
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",
       "path---404-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---dress-code-yellow": [
-      "path---dress-code-yellow-ca8ae69b433783e2c421.js",
-      "path---dress-code-yellow-ca8ae69b433783e2c421.js.map"
+      "path---dress-code-yellow-eba8eb11719ef6f874f8.js",
+      "path---dress-code-yellow-eba8eb11719ef6f874f8.js.map"
+    ],
+    "path---dress-code-white": [
+      "path---dress-code-white-f57f07bed064ec152d40.js",
+      "path---dress-code-white-f57f07bed064ec152d40.js.map"
     ],
     "component---src-pages-dress-code-js": [
-      "component---src-pages-dress-code-js-ba82d06e2ae2abdc6753.js",
-      "component---src-pages-dress-code-js-ba82d06e2ae2abdc6753.js.map"
+      "component---src-pages-dress-code-js-da7fa14dfef39295014a.js",
+      "component---src-pages-dress-code-js-da7fa14dfef39295014a.js.map"
+    ],
+    "path---dress-code-red": [
+      "path---dress-code-red-1a27d1e649a0c2d17c4e.js",
+      "path---dress-code-red-1a27d1e649a0c2d17c4e.js.map"
     ]
   }
 }
